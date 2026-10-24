@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.creeperking.mc263fix.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["MacosUtilMixin"],
+  "injectors": {"defaultRequire": 1}
+}

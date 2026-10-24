@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "mc263iosfix",
+  "version": "1.0.0",
+  "name": "Minecraft 26.3 iOS JNA Menu Fix",
+  "description": "Skips the macOS AppKit menu adjustment that crashes under Amethyst iOS.",
+  "environment": "client",
+  "mixins": ["mc263iosfix.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}
